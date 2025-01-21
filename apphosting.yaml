@@ -11,11 +11,3 @@ runConfig:
 env:
   - variable: MESSAGE
     value: Hello world!
-    availability:
-      - BUILD
-      - RUNTIME
-
-  - variable: MY_SECRET
-    secret: mySecretRef
-
-    
